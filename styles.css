@@ -187,11 +187,14 @@ a {
 }
 
 @media screen and (max-width: 740px) {
+    body, .container {
+        overflow: hidden;
+    }
     .item .content{
         position: relative;
-        top: 50%;
-        left: 0px;
-        width: 300px;
+        top: 35%;
+        
+        width: 500px;
         text-align: left;
         color: #eee;
         transform: translate(0, -50%);
@@ -201,16 +204,8 @@ a {
     .name p{
         font-size: 30px;
     }
-    .des p {
-        font-size: 25px;
+    .des {
+        display: none;
     }
-    .button{
-        width: 100%;
-        text-align: center;
-        position: relative;
-        right: 0;
-        left: 100px;
-        top: 500px;
-        
-    }
+    
 }
