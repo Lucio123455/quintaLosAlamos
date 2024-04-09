@@ -192,10 +192,11 @@ a {
     }
     .item .content{
         position: relative;
-        top: 35%;
-        
-        width: 500px;
-        text-align: left;
+        right: 5000px;
+        top: 20%;
+        width: 200px;
+        height: 200px;
+        text-align: center;
         color: #eee;
         transform: translate(0, -50%);
         font-family: system-ui;
